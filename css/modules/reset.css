@@ -1,0 +1,44 @@
+:root{
+    --primary-color: #3EB09B;
+    --primary-color2: #89D2C4;
+    --primary-color3: #CAE6E0;
+    --primary-color4: #1AB0B0;
+    --primary-color5: #398AA5;
+    --primary-color6: #B0D0DB;
+    --primary-color7: #398AA5;
+    --primary-color8: #61A1B7;
+    --primary-color9: #1AB0B0;
+    --btn-color: #00866A;
+    --secondary-color: #EE6093;
+    --secondary-color2: #E18AB6;
+    --secondary-color3: #F3D0E2;
+    --secondary-color4: #E18AB6;
+    --Sign-Out-color: #FF0000;
+    --black-color: #282828;
+    --white-color: #F2F6FC;
+    --white-color-basic: #FFFFFF;
+    --gray-color: #7C7C7C;
+    --more-gray-color: #ACACAC;
+    --title-color: #25396F;
+    --title-color2: #00866A;
+    --title-color3: #1AB0B0;
+    --title-color4: #7A0B44;
+    --title-color5: #7B97A5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    font-size: 62.5%;
+    font-family: Noto Sans,'Roboto' ;
+    background-color: rgb(255, 255, 255);
+    width: 36rem;
+    height: 64rem;
+}
+body{
+    background-color: var(--white-color);
+}
+

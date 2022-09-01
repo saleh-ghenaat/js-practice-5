@@ -1,0 +1,201 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Kick counter</title>
+</head>
+
+<body class="padding-top">
+    <div class="container">
+
+        <header class="flex-row justify-content-center align-items-center position-relative">
+
+            <svg class="position-absolute left" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 12H4" stroke="#25396F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M11 19L4 12L11 5" stroke="#25396F" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+
+
+            <h1 class="title-color font-weight-500 font-size-16">Kick counter</h1>
+
+
+
+        </header>
+
+        <main class="less-margin-bottom background-color-white-color border-radius-4 less-margin-top">
+
+            <section class="flex-row justify-content-end align-items-center flex-gap-half padding">
+
+                <h2 class="font-size-12 font-weight-400 black-color">Record Kicks</h2>
+
+                <div class="plus-icon-div flex-row justify-content-center align-items-center">
+
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 1V13" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M1 7H13" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+
+                </div>
+            </section>
+
+            <section class="flex-column justify-content-center align-items-center padding-bottom padding-top">
+
+                <div class="flex-column justify-content-center align-items-center flex-gap-half ">
+                    <p class="font-size-14 font-weight-400 black-color">Kicks</p>
+                    <p class="font-size-36 font-weight-400 black-color">07</p>
+                    <div class="baby-image-kick-counter-div less-margin-top less-margin-bottom"></div>
+                    <p class="font-size-14 font-weight-500 black-color">01:05</p>
+                    <p class="font-size-10 font-weight-400 black-color">Duration</p>
+                </div>
+
+                <div class="padding-top flex-column justify-content-center align-items-center">
+                    <button class="btn-secondary">Stop</button>
+                </div>
+
+            </section>
+
+            <section>
+
+                <div>
+
+                    <div class="kick-counter-history-div">
+
+                        <svg class="vector-history" width="328" height="25" viewBox="0 0 328 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path opacity="0.1" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M419 3.97727L410.933 6.36364C402.866 9.14773 386.732 14.3182 370.598 17.5C353.119 20.6818 347.134 16.8977 331 16.5C314.866 15.7045 297.634 7.79545 281.5 7C265.366 6.20455 238.835 18.2955 222.701 15.5114C206.567 12.7273 190.433 6.36364 174.299 3.97727C158.165 1.19318 140.686 2.38636 124.552 5.17045C108.418 7.55682 92.2835 11.5341 76.1494 11.5341C60.0152 11.5341 43.8811 7.55682 26.4024 5.17045C10.2683 2.38636 -5.86584 1.19318 -13.9329 0.397727L-22 0V35H-13.9329C-5.86584 35 10.2683 35 26.4024 35C43.8811 35 60.0152 35 76.1494 35C92.2835 35 108.418 35 124.552 35C140.686 35 158.165 35 174.299 35C190.433 35 206.567 35 222.701 35C238.835 35 256.314 35 272.448 35C288.582 35 304.716 35 320.851 35C336.985 35 353.119 35 370.598 35C386.732 35 402.866 35 410.933 35H419V3.97727Z"
+                                fill="white" />
+                        </svg>
+
+                        <svg class="vector-history" width="328" height="25" viewBox="0 0 328 25" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_b_807_216)">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M347 5.65161e-07L337.5 4.05186C330.5 4.05186 299 -2.28138 285 4.05186C271 10.3851 258 21.9743 244 21C230 20.5128 219 10.3851 205 4.05186C191 -2.28138 178 -0.332693 164 4.05186C150 8.92358 137 16.7183 123 17.6927C109 18.667 96 12.3338 82 11.3594C68 10.3851 55 15.2568 41 15.2568C27 15.2568 14 10.3851 7 8.43641L0 6.00055V44H7C14 44 27 44 41 44C55 44 68 44 82 44C96 44 109 44 123 44C137 44 150 44 164 44C178 44 191 44 205 44C219 44 232 44 246 44C260 44 273 44 287 44C301 44 314 44 321 44H328L347 5.65161e-07Z"
+                                    fill="white" fill-opacity="0.1" />
+                            </g>
+                            <defs>
+                                <filter id="filter0_b_807_216" x="-7" y="-7" width="361" height="58"
+                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                    <feGaussianBlur in="BackgroundImage" stdDeviation="3.5" />
+                                    <feComposite in2="SourceAlpha" operator="in"
+                                        result="effect1_backgroundBlur_807_216" />
+                                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_807_216"
+                                        result="shape" />
+                                </filter>
+                            </defs>
+                        </svg>
+
+                        <h2 class="font-size-12 font-weight-500 white-color-basic">Kick counter history</h2>
+
+                        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12.6617 0H9.30829V1.06466H12.0906L6.46936 6.68541L7.28821 7.50441L12.9186 1.87435V4.6651H13.9999V1.33826C14 0.599167 13.4008 0 12.6617 0Z"
+                                fill="white" />
+                            <path
+                                d="M11.9959 12.4207C11.9959 12.7469 11.7413 13.0112 11.4273 13.0112H1.57265C1.25864 13.0112 1.00404 12.7469 1.00404 12.4207V2.57908C1.00404 2.25297 1.25864 1.98862 1.57265 1.98862H7.85763V1H1.24267C0.556369 1 0 1.55637 0 2.24267V12.7573C0 13.4436 0.556369 14 1.24267 14H11.7573C12.4436 14 13 13.4436 13 12.7573V6.11768H11.996V12.4207H11.9959Z"
+                                fill="white" />
+                        </svg>
+
+                    </div>
+
+                    <section class="border-bottom flex-column justify-content-space-between align-items-start padding">
+
+                        <div class="max-width flex-row justify-content-space-between">
+
+                            <p class="font-size-14 font-weight-500 black-color">Last record</p>
+                            <p class="font-size-10 font-weight-400 black-color">27 Jan 2022</p>
+
+                        </div>
+
+                        <div class="max-width flex-row justify-content-start align-items-center less-margin-top">
+
+                            <div class="flex-column justify-content-space-between align-items-start flex-grow flex-gap-half">
+                                <p class="font-size-10 font-weight-400 more-gray-color">Time</p>
+                                <p class="font-size-14 font-weight-400 black-color">3:32 pm</p>
+                            </div>
+                            <div class="flex-column justify-content-space-between align-items-start flex-grow flex-gap-half">
+                                <p class="font-size-10 font-weight-400 more-gray-color">Duration</p>
+                                <p class="font-size-14 font-weight-400 black-color">45s</p>
+                            </div>
+                            <div class="flex-column justify-content-space-between align-items-start flex-grow flex-gap-half">
+                                <p class="font-size-10 font-weight-400 more-gray-color">Kicks</p>
+                                <p class="font-size-14 font-weight-400 black-color">08</p>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <section class="border-bottom flex-column justify-content-space-between align-items-start padding">
+
+                        <div class="max-width flex-row justify-content-space-between">
+
+                            <p class="font-size-14 font-weight-500 black-color">Last Hour</p>
+
+                        </div>
+
+                        <div class="max-width flex-row justify-content-start align-items-center less-margin-top">
+
+                            <div class="flex-column justify-content-space-between align-items-start flex-grow flex-gap-half">
+                                <p class="font-size-10 font-weight-400 more-gray-color">Time</p>
+                                <p class="font-size-14 font-weight-400 black-color">2:12 pm</p>
+                            </div>
+                            <div class="flex-column justify-content-space-between align-items-start flex-grow flex-gap-half">
+                                <p class="font-size-10 font-weight-400 more-gray-color">Duration</p>
+                                <p class="font-size-14 font-weight-400 black-color">27s</p>
+                            </div>
+                            <div class="flex-column justify-content-space-between align-items-start flex-grow flex-gap-half">
+                                <p class="font-size-10 font-weight-400 more-gray-color">Kicks</p>
+                                <p class="font-size-14 font-weight-400 black-color">05</p>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <section class="flex-column justify-content-space-between align-items-start padding">
+
+                        <div class="max-width flex-row justify-content-space-between">
+
+                            <p class="font-size-14 font-weight-500 black-color">Last 4 Hour</p>
+
+                        </div>
+
+                        <div class="max-width flex-row justify-content-start align-items-center less-margin-top">
+
+                            <div class="flex-column justify-content-space-between align-items-start flex-grow flex-gap-half">
+                                <p class="font-size-10 font-weight-400 more-gray-color">Time</p>
+                                <p class="font-size-14 font-weight-400 black-color">10:25 pm</p>
+                            </div>
+                            <div class="flex-column justify-content-space-between align-items-start flex-grow flex-gap-half">
+                                <p class="font-size-10 font-weight-400 more-gray-color">Duration</p>
+                                <p class="font-size-14 font-weight-400 black-color">23s</p>
+                            </div>
+                            <div class="flex-column justify-content-space-between align-items-start flex-grow flex-gap-half">
+                                <p class="font-size-10 font-weight-400 more-gray-color">Kicks</p>
+                                <p class="font-size-14 font-weight-400 black-color">02</p>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </section>
+        </main>
+
+    </div>
+</body>
+
+</html>

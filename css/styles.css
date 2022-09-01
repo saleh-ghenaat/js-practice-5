@@ -1,0 +1,255 @@
+@import url('./modules/reset.css');
+@import url('./modules/utils.css');
+@import url('./modules/components.css');
+
+
+.main-section {
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/Vector.png);
+}
+
+.w-h {
+    width: 100%;
+    height: 50%;
+}
+
+.background-baby-image {
+    width: 15.6rem;
+    height: 15.6rem;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+.paragraph-start {
+    width: 26rem;
+}
+
+.background-image-baby-sign-in {
+    width: 20.5rem;
+    height: 23.1rem;
+    top: 0;
+    right: 0;
+    background-image: url(../image/sign-in-image.png);
+}
+
+.hello-text-div {
+    width: 14.3rem;
+    height: 9rem;
+}
+
+.baby-image-kick-counter-div {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    border: 1px solid var(--secondary-color);
+    background-image: url(../image/Group-3668.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.kick-counter-history-div {
+    height: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.6rem;
+    border-radius: 4px 4px 0 0;
+    background-color: var(--secondary-color);
+}
+
+.contraction-timer-history-div {
+    height: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.6rem;
+    border-radius: 4px 4px 0 0;
+    background-color: var(--primary-color5);
+}
+
+.vector-history {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.contraction-timer-low-med-high-div {
+    width: 27rem;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.04);
+    margin: 4rem 3rem 0rem 3rem;
+}
+
+.med-div {
+    width: 9rem;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .25rem;
+    background-color: #D1EFEF;
+    border-radius: 30px;
+    box-shadow: 0px 2px 8px rgba(26, 176, 176, 0.08), 0px 4px 4px rgba(26, 176, 176, 0.08);
+}
+
+.search-section-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--white-color-basic);
+    width: 100%;
+    padding: 0rem .4rem 0rem 1.6rem;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+}
+
+.search-icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 4px;
+    border: none;
+}
+
+.recent-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--more-gray-color);
+    border-radius: 30px;
+    padding: .4rem;
+    margin: .4rem .3rem;
+}
+
+.selected-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    padding: .4rem;
+    margin: .4rem .3rem;
+}
+
+.dashboard-profile-image {
+    background-image: url(../image/Ellipse\ 12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.dashboard-card-div{
+    width: 16rem;
+    height: 18.5rem;
+    border-radius: 4px;
+}
+
+.dashboard-card-image-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    width: 16rem;
+    height: 15.1rem;
+    background: radial-gradient(50% 50% at 50% 50%, #F3A183 0%, #EC6F66 100%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px 4px 0px 0px;
+    padding: .8rem .8rem;
+
+}
+.dashboard-card-image-div-side {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    width: 16rem;
+    height: 15.1rem;
+    background: radial-gradient(50% 50% at 50% 50%, #FF7054 11.98%, #FFB141 100%);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px 4px 0px 0px;
+    padding: .8rem .8rem;
+}
+.dashboard-baby-week-sec{
+    width: 32.8rem;
+    height: 19.7rem;
+    background-color: var(--white-color-basic);
+    margin: 2.4rem 0rem;
+}
+.dashboard-baby-week-div{
+    height: 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.6rem;
+    border-radius: 4px 4px 0 0;
+    background-color: var(--btn-color);
+}
+.circle-div{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: 5px solid #F5F5F5;
+    border-right-color: #3EB09B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.dashboard-how-are-you-sec{
+    width: 32.8rem;
+    height: 35.9rem;
+    border-radius: 4px;
+    background-color: var(--white-color-basic);
+    padding: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.tools-div{
+    width: 32.8rem;
+    height: 8.8rem;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 2.7rem;
+    padding: 0rem 2rem;
+    margin-top: 1.6rem;
+}
+.dashboard-card-sec{
+    margin-top: 1.6rem;
+    width: 32.8rem;
+    height: 30.5rem;
+    background-color: var(--white-color-basic);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 4px;
+    gap: 0.8rem;
+}
